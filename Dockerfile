@@ -1,4 +1,4 @@
-FROM ubuntu:kylin
+FROM ubuntu:lucid
 MAINTAINER alaudadoc alaudadoc@alauda.cn
 
 RUN apt-get update && apt-get install -y nodejs
