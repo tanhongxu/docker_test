@@ -1,7 +1,5 @@
-FROM ubuntu:trusty
-MAINTAINER alaudadoc alaudadoc@alauda.cn
+FROM nginx
 
-RUN apt-get update && apt-get install -y nodejs
-EXPOSE 80
-COPY server.js /
-CMD ["nodejs", "/server.js"]
+MAINTAINER "tanhongxu@126.com"
+
+COPY index.html /usr/share/nginx/html
