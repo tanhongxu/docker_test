@@ -1,4 +1,4 @@
-FROM ubuntu:lucid
+FROM ubuntu:trusty
 MAINTAINER alaudadoc alaudadoc@alauda.cn
 
 RUN apt-get update && apt-get install -y nodejs
