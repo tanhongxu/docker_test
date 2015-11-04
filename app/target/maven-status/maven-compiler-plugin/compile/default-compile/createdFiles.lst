@@ -1,0 +1,7 @@
+demo/SecurityInitializer.class
+demo/MvcConfig.class
+demo/Initializer.class
+demo/HttpSessionConfig.class
+demo/PagesController.class
+demo/DemoApplication.class
+demo/WebSecurityConfig.class
