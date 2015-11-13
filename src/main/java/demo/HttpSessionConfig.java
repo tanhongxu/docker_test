@@ -12,8 +12,8 @@ public class HttpSessionConfig {
     @Bean
     public JedisConnectionFactory connectionFactory() {
         JedisConnectionFactory connection = new JedisConnectionFactory();
-        connection.setHostName("redis-tanhongxu.myalauda.cn");
-		connection.setPort(10380);
+        connection.setHostName("REDIS");
+		// connection.setPort(10380);
         return connection;
     }
 }
